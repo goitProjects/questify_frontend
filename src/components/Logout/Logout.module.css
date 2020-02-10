@@ -1,0 +1,63 @@
+.button {
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  width: 21px;
+  height: 21px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+  background-color: transparent;
+  position: relative;
+}
+
+.button svg {
+  width: 21px;
+  fill: #3e4e6c;
+  transform: rotate(180deg);
+}
+
+.button:hover svg {
+  fill: #7b8aa4;
+}
+
+.logout {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.hint {
+  display: none;
+  position: absolute;
+  width: 170px;
+  font-family: "HelveticaNeueCyrLight", sans-serif;
+  font-size: 12px;
+  color: white;
+  top: 25px;
+}
+
+.button:hover .hint {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .button {
+    flex-grow: 0;
+    align-self: center;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .button {
+    width: 30px;
+    height: 30px;
+  }
+}

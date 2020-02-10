@@ -1,0 +1,54 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.name {
+  font-family: "HelveticaNeueCyrBold", sans-serif;
+  font-size: 1rem;
+  color: #282828;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  margin: 0.5rem 0 1rem;
+}
+
+.noQuest {
+  font-family: "HelveticaNeueCyrBold", sans-serif;
+  font-size: 1rem;
+  color: #588696;
+  margin: 0.5rem auto;
+}
+
+@media (min-width: 768px) {
+  .section {
+    max-width: 600px;
+    padding: 0;
+  }
+
+  .name {
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section {
+    max-width: 1024px;
+  }
+
+  .name {
+    margin: 2rem 0 2rem 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .section {
+    max-width: 1764px;
+  }
+}

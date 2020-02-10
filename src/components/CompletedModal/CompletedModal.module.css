@@ -1,0 +1,65 @@
+.wrapper {
+  position: absolute;
+  z-index: 999;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 38px 0 0 30px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 11px;
+  box-shadow: 0px 10px 20px 0px rgba(21, 57, 90, 0.15);
+  font: 400 15px 'HelveticaNeueCyrRoman', sans-serif;
+}
+
+.span {
+  text-decoration: underline;
+  text-transform: initial;
+  color: #00d7ff;
+  font-size: 12px;
+  font-stretch: normal;
+  letter-spacing: 0.4;
+}
+
+.button {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  bottom: 22px;
+  left: 35%;
+  font-family: 'HelveticaNeueCyrRoman';
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.73;
+  letter-spacing: 1.4px;
+  text-align: left;
+  color: #7b8aa4;
+  width: 90px;
+  height: 20px;
+}
+
+.button svg {
+  width: 10px;
+  height: 14px;
+  fill: #00d7ff;
+}
+
+.button:hover svg{
+  fill: #47aad5;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
